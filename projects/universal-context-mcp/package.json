@@ -1,0 +1,15 @@
+{
+  "name": "universal-context-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/cache/basic.test.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "chroma-js": "^2.4.2",
+    "glob": "^10.3.10",
+    "minimatch": "^9.0.3"
+  }
+}

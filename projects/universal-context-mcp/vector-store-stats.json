@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-29T01:54:47.330Z",
+  "files": 23,
+  "chunks": 104,
+  "cacheStats": {
+    "hits": 0,
+    "misses": 1,
+    "negativeHits": 0,
+    "evictions": 0,
+    "expirations": 0,
+    "dedupedLoads": 0,
+    "entries": 0,
+    "sizeBytes": 0,
+    "hitRate": 0,
+    "vector": {
+      "backend": "memory",
+      "entries": 104,
+      "chromaEnabled": false
+    }
+  },
+  "fileTypes": {
+    ".md": 4,
+    ".json": 2,
+    ".js": 16,
+    ".ts": 1
+  }
+}

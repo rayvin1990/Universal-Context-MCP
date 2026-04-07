@@ -1,0 +1,58 @@
+{
+  "test:1": {
+    "id": "test:1",
+    "text": "这是测试内容",
+    "tokens": [
+      "这是测试内容"
+    ],
+    "value": {
+      "content": "test value"
+    },
+    "metadata": {}
+  },
+  "unknown-agent:unknown-project:global:1ktvkzw": {
+    "id": "unknown-agent:unknown-project:global:1ktvkzw",
+    "text": "test:code",
+    "tokens": [
+      "test",
+      "code"
+    ],
+    "value": {
+      "content": "function add(a,b){return a+b}",
+      "language": "javascript"
+    },
+    "metadata": {
+      "cacheType": "session-context"
+    }
+  },
+  "unknown-agent:unknown-project:global:1sas6fr": {
+    "id": "unknown-agent:unknown-project:global:1sas6fr",
+    "text": "帮我修复这个bug",
+    "tokens": [
+      "帮我修复这个bug"
+    ],
+    "value": {
+      "prompt": "帮我修复这个bug",
+      "intent": "code_modify",
+      "timestamp": 1775441927946
+    },
+    "metadata": {
+      "cacheType": "session-context"
+    }
+  },
+  "unknown-agent:unknown-project:global:1piw5i1": {
+    "id": "unknown-agent:unknown-project:global:1piw5i1",
+    "text": "修复bug",
+    "tokens": [
+      "修复bug"
+    ],
+    "value": {
+      "prompt": "修复bug",
+      "intent": "code_modify",
+      "timestamp": 1775441927948
+    },
+    "metadata": {
+      "cacheType": "session-context"
+    }
+  }
+}
