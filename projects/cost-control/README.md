@@ -13,16 +13,7 @@
 
 ## 🚀 快速开始
 
-### Web 版（推荐小白）
-
-```bash
-cd cost-control/web
-npm install
-npm start
-# 打开 http://localhost:3004
-```
-
-### CLI 版（高级用户）
+### 安装
 
 ```bash
 npm install -g cost-control
