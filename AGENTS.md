@@ -48,6 +48,17 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 ## Safety
 
 - Don't exfiltrate private data. Ever.
+- **每次推送前必须检查敏感信息**（见下方）
+
+### 🛡️ 推送安全检查
+
+**每次用户说「推送」或「push」时，你必须**：
+
+1. 运行敏感信息扫描：`Select-String -Path <文件> -Pattern "cli_|sk-|AKIA|AIzaSy" -Quiet`
+2. 确认文件在 PUSH_POLICY.md 的公开目录
+3. 报告扫描结果，全部通过才能推送
+
+**禁止**：`TOOLS.md`, `credentials/`, `memory/`, `company/` 未经脱敏不得推送。
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
